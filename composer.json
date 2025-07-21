@@ -1,24 +1,14 @@
 {
-    "name": "apimatic-sdks/manualpracticesampleapi",
-    "description": "Sample API for manual practice.",
+    "name": "apimatic/mannual-calculator",
+    "description": "it is used for performming basic maths",
     "type": "library",
-    "keywords": [
-        "Manualpractice-SampleAPI",
-        "API",
-        "SDK"
-    ],
+    "keywords": [],
     "homepage": "https://www.apimatic.io",
     "license": [
         "MIT"
     ],
-    "authors": [
-        {
-            "name": "APIMatic Code Generator",
-            "email": "support@apimatic.io",
-            "homepage": "https://www.apimatic.io",
-            "role": "API Tool"
-        }
-    ],
+    "authors": [],
+    "support": {},
     "prefer-stable": false,
     "require": {
         "php": "^7.2 || ^8.0",
