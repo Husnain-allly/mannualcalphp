@@ -63,7 +63,7 @@ class ProxyConfigurationBuilder
     /**
      * Set proxy authentication method
      */
-    public function authMethod(string $authMethod): self
+    public function authMethod(int $authMethod): self
     {
         $this->authMethod = $authMethod;
         return $this;
