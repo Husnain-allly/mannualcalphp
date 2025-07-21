@@ -10,23 +10,23 @@ Sample API for manual practice.
 Run the following command to install the package and automatically add the dependency to your composer.json file:
 
 ```bash
-composer require "apimatic/mannual-calculator:1.0.2"
+composer require "apimatic-calculator/mannual-calculatorr:1.0.3"
 ```
 
 Or add it to the composer.json file manually as given below:
 
 ```json
 "require": {
-    "apimatic/mannual-calculator": "1.0.2"
+    "apimatic-calculator/mannual-calculatorr": "1.0.3"
 }
 ```
 
 You can also view the package at:
-https://packagist.org/packages/apimatic/mannual-calculator#1.0.2
+https://packagist.org/packages/apimatic-calculator/mannual-calculatorr#1.0.3
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.2/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.3/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -42,9 +42,9 @@ The following parameters are configurable for the API Client:
 | retryOnTimeout | `bool` | Whether to retry on request timeout.<br>*Default*: `true` |
 | httpStatusCodesToRetry | `array` | Http status codes to retry against.<br>*Default*: `408, 413, 429, 500, 502, 503, 504, 521, 522, 524` |
 | httpMethodsToRetry | `array` | Http methods to retry against.<br>*Default*: `'GET', 'PUT'` |
-| loggingConfiguration | [`LoggingConfigurationBuilder`](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.2/doc/logging-configuration-builder.md) | Represents the logging configurations for API calls |
-| proxyConfiguration | [`ProxyConfigurationBuilder`](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.2/doc/proxy-configuration-builder.md) | Represents the proxy configurations for API calls |
-| authorizationCodeAuth | [`AuthorizationCodeAuth`](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.2/doc/auth/oauth-2-authorization-code-grant.md) | The Credentials Setter for OAuth 2 Authorization Code Grant |
+| loggingConfiguration | [`LoggingConfigurationBuilder`](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.3/doc/logging-configuration-builder.md) | Represents the logging configurations for API calls |
+| proxyConfiguration | [`ProxyConfigurationBuilder`](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.3/doc/proxy-configuration-builder.md) | Represents the proxy configurations for API calls |
+| authorizationCodeAuth | [`AuthorizationCodeAuth`](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.3/doc/auth/oauth-2-authorization-code-grant.md) | The Credentials Setter for OAuth 2 Authorization Code Grant |
 
 The API client can be initialized as follows:
 
@@ -86,31 +86,31 @@ $client = ManualpracticeSampleApiClientBuilder::init()
 
 This API uses the following authentication schemes.
 
-* [`acgauth2 (OAuth 2 Authorization Code Grant)`](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.2/doc/auth/oauth-2-authorization-code-grant.md)
+* [`acgauth2 (OAuth 2 Authorization Code Grant)`](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.3/doc/auth/oauth-2-authorization-code-grant.md)
 
 ## List of APIs
 
-* [API](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.2/doc/controllers/api.md)
-* [Createsquarerootmath](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.2/doc/controllers/createsquarerootmath.md)
-* [Addnumbermath](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.2/doc/controllers/addnumbermath.md)
-* [Subtractnumbermath](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.2/doc/controllers/subtractnumbermath.md)
-* [Multipliednumbermath](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.2/doc/controllers/multipliednumbermath.md)
-* [Updatenumbermath](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.2/doc/controllers/updatenumbermath.md)
+* [API](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.3/doc/controllers/api.md)
+* [Createsquarerootmath](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.3/doc/controllers/createsquarerootmath.md)
+* [Addnumbermath](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.3/doc/controllers/addnumbermath.md)
+* [Subtractnumbermath](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.3/doc/controllers/subtractnumbermath.md)
+* [Multipliednumbermath](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.3/doc/controllers/multipliednumbermath.md)
+* [Updatenumbermath](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.3/doc/controllers/updatenumbermath.md)
 
 ## SDK Infrastructure
 
 ### Configuration
 
-* [ProxyConfigurationBuilder](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.2/doc/proxy-configuration-builder.md)
-* [LoggingConfigurationBuilder](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.2/doc/logging-configuration-builder.md)
-* [RequestLoggingConfigurationBuilder](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.2/doc/request-logging-configuration-builder.md)
-* [ResponseLoggingConfigurationBuilder](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.2/doc/response-logging-configuration-builder.md)
+* [ProxyConfigurationBuilder](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.3/doc/proxy-configuration-builder.md)
+* [LoggingConfigurationBuilder](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.3/doc/logging-configuration-builder.md)
+* [RequestLoggingConfigurationBuilder](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.3/doc/request-logging-configuration-builder.md)
+* [ResponseLoggingConfigurationBuilder](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.3/doc/response-logging-configuration-builder.md)
 
 ### HTTP
 
-* [HttpRequest](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.2/doc/http-request.md)
+* [HttpRequest](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.3/doc/http-request.md)
 
 ### Utilities
 
-* [ApiResponse](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.2/doc/api-response.md)
+* [ApiResponse](https://www.github.com/Husnain-allly/mannualcalphp/tree/1.0.3/doc/api-response.md)
 
